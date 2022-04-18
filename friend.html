@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Gamespace - Friend</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link href="./styles/style.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/underscore@1.13.1/underscore-umd-min.js"></script>
+  <script src="./scripts/script.js"></script>
+</head>
+
+<body>
+  <div class="top-menu">
+    <img src="./images/logo1.png" alt="Gamespace logo" />
+    <button id="home-btn">Home</button>
+    <button id="profile-btn">Profile</button>
+    <button id="friends-btn">Friends</button>
+  </div>
+
+  <div class="bar">
+    <input class="searchbar" type="text" placeholder="Search for friends" id="searchInput" title="Search">
+    <a id="jump" href="#"><img class="searchicon" id="search" src="./images/search.png"></a>
+  </div>
+
+  <div class="addandminus">
+    <div class="minusicon">
+      <a><img src="./images/delete.png" alt="Minus Friend" /></a>
+    </div>
+    <div class="addicon">
+      <a><img src="./images/add.png" alt="Add Friend" /></a>
+    </div>
+  </div>
+
+  <div class="best">
+    <span>≡</span> <span class="text">Best Friends</span> <span>∨</span>
+  </div>
+  <div class="middlebest">
+    <div class="middle-left"><img src="images/friend1.jpg" id="Friend 1" />
+      <p>Friend 1</p>
+    </div>
+
+    <div class="pink">
+      <div class="border">
+        <p id="pfriend1">Profile</p>
+        <textarea>Here's first best friend's profile</textarea>
+      </div>
+    </div>
+
+    <div>
+      <ul id="friend1" class="middleul">
+        <li class="blue">Profile</li>
+        <li class="grey">Posts</li>
+        <li class="grey">Games</li>
+        <li class="grey">Achievement</li>
+      </ul>
+    </div>
+  </div>
+  <div class="fri">
+    <span>≡</span> <span class="text">Friends</span> <span>∨</span>
+  </div>
+
+  <div class="middle showHide">
+    <div class="middle-left"><img src="images/friend2.jpg" id="Friend 2" />
+      <p>Friend 2</p>
+    </div>
+    <div class="pink">
+      <div class="border">
+        <p id="pfriend2">Profile</p>
+        <textarea>Welcome to my profile</textarea>
+      </div>
+    </div>
+    <div>
+      <ul id="friend2" class="middleul">
+        <li class="blue">Profile</li>
+        <li class="grey">Posts</li>
+        <li class="grey">Games</li>
+        <li class="grey">Achievement</li>
+      </ul>
+    </div>
+  </div>
+
+  <br/>
+  <div class="middle showHide">
+    <div class="middle-left"><img src="images/friend3.jpg" id="Friend 3" />
+      <p>Friend 3</p>
+    </div>
+    <div class="pink">
+      <div class="border">
+        <p id="pfriend3">Posts</p>
+        <textarea>League is so hard.</textarea>
+      </div>
+    </div>
+    <div>
+      <ul id="friend3" class="middleul">
+        <li class="grey">Profile</li>
+        <li class="blue">Posts</li>
+        <li class="grey">Games</li>
+        <li class="grey">Achievement</li>
+      </ul>
+    </div>
+  </div>
+
+  <br/>
+  <div class="middle showHide">
+    <div class="middle-left"><img src="images/friend4.jpg" id="Friend 4" />
+      <p>Friend 4</p>
+    </div>
+    <div class="pink">
+      <div class="border">
+        <p id="pfriend4">Games</p>
+        <textarea></textarea>
+      </div>
+    </div>
+    <div>
+      <ul id="friend4" class="middleul">
+        <li class="grey">Profile</li>
+        <li class="grey">Posts</li>
+        <li class="blue">Games</li>
+        <li class="grey">Achievement</li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>

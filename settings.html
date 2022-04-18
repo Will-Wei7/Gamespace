@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Gamespace - Settings</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link href="./styles/style.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/underscore@1.13.1/underscore-umd-min.js"></script>
+  <script src="./scripts/script.js"></script>
+</head>
+
+<body>
+  <div id="settings-modal" class="modal">
+    <div id="settings-overlay">
+      <h2 class="setting-header">Settings</h2>
+
+      <div class="setting-container">
+        <h2 class="setting-header">Profile Picture</h2>
+        <form class="setting-form" id="profile-pic-form" action="settings_db.php" method="post">
+          <input type="file" name="profile-pic" id="profile-pic">
+          <button type="submit" name="settings-pic">Save</button>
+        </form>
+      </div>
+
+      <div class="setting-container">
+        <h2 class="setting-header">Bio</h2>
+
+        <form class="setting-form" action="settings_db.php" method="post">
+          <textarea placeholder="Describe yourself..." name="bio" id="bio"></textarea>
+          <button type="submit" name="settings-bio">Save</button>
+        </form>
+      </div>
+
+      <div class="setting-container">
+        <h2 class="setting-header">Email</h2>
+
+        <form class="setting-form" action="settings_db.php" method="post">
+          <input type="email" name="email" id="email" placeholder="New email...">
+          <button type="submit" name="settings-email">Save</button>
+        </form>
+      </div>
+
+      <div class="setting-container">
+        <h2 class="setting-header">Password</h2>
+
+        <form class="setting-form" action="settings_db.php" method="post">
+          <input type="text" name="password" id="password" placeholder="New password...">
+          <button type="submit" name="settings-password">Save</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
