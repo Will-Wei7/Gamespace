@@ -35,7 +35,7 @@ Clone repository into new folder "gamespace" inside htdocs folder:
 <br /><br />Using Git bash:
 <br />&emsp;Start Git bash from inside htdocs folder and run
 ```bash
-git clone https://github.com/itws2110section2group7/gamespace.git gamespace
+git clone https://github.com/Will-Wei7/Gamespace.git gamespace
 ```
 Alternatively:
 <br />&emsp;[Repository link](https://github.com/itws2110section2group7/gamespace)
